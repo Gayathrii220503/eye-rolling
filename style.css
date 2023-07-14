@@ -1,0 +1,226 @@
+.gayu{
+    margin-left:40px ;
+    margin-top: 90px;
+    height:300px ;
+    width: 300px;
+}
+.eye1{
+    height: 61px;
+    width:64px ;
+    top: 230px;
+    left:638px ;
+    position: absolute;
+    background-color:  whitesmoke;
+    border-radius: 60px 100px 60px 100px;
+    box-shadow: 2px 2px 0px 0px black;
+}
+.eye2{
+    height: 58px;
+    width:64px ;
+    top: 230px;
+    left:715px;
+    position: absolute;
+    background-color: whitesmoke;
+    border-radius: 100px 60px 100px 60px;
+    box-shadow: 2px 2px 0px 0px black;
+}
+.leye1{
+    height: 39px;
+    width:35px ;
+    top: 253px;
+    left:650px ;
+    position: absolute;
+    background-color: black;
+    border-radius: 60px 100px 60px 100px;
+}
+.reye2{
+    height:39px;
+    width:35px ;
+    top: 250px;
+    left:719px ;
+    position: absolute;
+    background-color:black;
+    border-radius: 100px 60px 100px 60px;
+}
+.leye3{
+    height:10px;
+    width:9px ;
+    top: 256px;
+    left:738px ;
+    position: absolute;
+    background-color:white;
+    border-radius: 100px 50px 100px 50px;
+}
+.reye3{
+    height:10px;
+    width:9px ;
+    top: 256px;
+    left:660px ;
+    position: absolute;
+    background-color:white;
+    border-radius: 50px 100px 50px 100px;
+}
+@keyframes eye1{
+    0%{
+        transform-origin: bottom ;
+        transform: rotate(8deg);
+    }
+    25%{
+        transform-origin: top ;
+        transform: rotate(0deg);
+    }
+    50%{
+        transform-origin:right ;
+        transform: rotate(-8deg);
+    }
+    75%{
+        transform-origin:left ;
+        transform: rotate(8deg);
+    }
+    100%{
+        transform-origin: bottom ;
+        transform: rotate(0deg);
+    }
+    125%{
+        transform-origin: top;
+        transform: rotate(-8deg);
+    }
+}
+.eye1{
+    animation:eye1 1s infinite;
+}
+.eye2{
+    animation:eye2 1s infinite;
+}
+@keyframes eye2{
+    0%{
+        transform-origin: bottom ;
+        transform: rotate(8deg);
+    }
+    25%{
+        transform-origin: top ;
+        transform: rotate(0deg);
+    }
+    50%{
+        transform-origin:right ;
+        transform: rotate(-8deg);
+    }
+    75%{
+        transform-origin:left ;
+        transform: rotate(8deg);
+    }
+    100%{
+        transform-origin: bottom ;
+        transform: rotate(0deg);
+    }
+    125%{
+        transform-origin: top;
+        transform: rotate(-8deg);
+    }
+}
+
+@keyframes leye3{
+    0%{
+        transform-origin: bottom ;
+        transform: rotate(0deg);
+    }
+    25%{
+        transform-origin: top ;
+        transform: rotate(90deg);
+    }
+    50%{
+        transform-origin:bottom ;
+        transform: rotate(180deg);
+    }
+    75%{
+        transform-origin:top ;
+        transform: rotate(0deg);
+    }
+    100%{
+        transform-origin: bottom ;
+        transform: rotate(90deg);
+    }
+    125%{
+        transform-origin: top;
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes reye3{
+    0%{
+        transform-origin: bottom ;
+        transform: rotate(0deg);
+    }
+    25%{
+        transform-origin: top ;
+        transform: rotate(90deg);
+    }
+    50%{
+        transform-origin:bottom ;
+        transform: rotate(180deg);
+    }
+    75%{
+        transform-origin:top ;
+        transform: rotate(275deg);
+    }
+    100%{
+        transform-origin: bottom ;
+        transform: rotate(360deg);
+    }
+    125%{
+        transform-origin: top;
+        transform: rotate(0deg);
+    }
+}
+.leye3{
+    animation: leye3 1s infinite;
+}
+.reye3{
+    animation: reye3 1s infinite;
+}
+@keyframes leye1{
+    0%{
+        background-color: black;
+    }
+    25%{
+        background-color: deepskyblue;
+    }
+    50%{
+        background-color: deeppink;
+    }
+    75%{
+        background-color: blue;
+    }
+    100%{
+        background-color: red;
+    }
+    125%{
+        background-color: aqua;
+    }
+}
+.leye1{
+    animation: leye1 3s infinite;
+}
+@keyframes reye2{
+    0%{
+        background-color: black;
+    }
+    25%{
+        background-color: deepskyblue;
+    }
+    50%{
+        background-color: deeppink;
+    }
+    75%{
+        background-color: blue;
+    }
+    100%{
+        background-color: red;
+    }
+    125%{
+        background-color: aqua;
+    }
+}
+.reye2{
+    animation: reye2 3s infinite;
+}
